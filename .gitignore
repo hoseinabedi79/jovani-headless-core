@@ -1,0 +1,12 @@
+# Composer
+/vendor/
+
+# Environment
+.env
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
