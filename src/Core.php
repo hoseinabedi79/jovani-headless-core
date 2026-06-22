@@ -7,6 +7,7 @@ use Jovani\HeadlessCore\Admin\Sync;
 use Jovani\HeadlessCore\Graphql\GraphqlConfig;
 use Jovani\HeadlessCore\Graphql\Fields;
 use Jovani\HeadlessCore\Graphql\Pagination;
+use Jovani\HeadlessCore\Graphql\Search;
 
 class Core {
     /**
@@ -24,5 +25,6 @@ class Core {
         (new GraphqlConfig())->init();
         (new Fields())->init();
         (new Pagination())->init();
+        ( new Search() )->init();
     }
 }
